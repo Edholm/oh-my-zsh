@@ -1,0 +1,1 @@
+/home/eda/git-repos/dotfiles/eda.zsh-theme
