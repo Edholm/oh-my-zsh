@@ -13,9 +13,11 @@ bindkey '^[[B' down-line-or-search
 
 bindkey "^[[H" beginning-of-line
 bindkey "^[[1~" beginning-of-line
+bindkey "^[[7~" beginning-of-line
 bindkey "^[OH" beginning-of-line
 bindkey "^[[F"  end-of-line
 bindkey "^[[4~" end-of-line
+bindkey "^[[8~" end-of-line
 bindkey "^[OF" end-of-line
 bindkey ' ' magic-space    # also do history expansion on space
 
@@ -34,10 +36,10 @@ bindkey "\e[3~" delete-char
 
 #bindkey -e  ## emacs key bindings
 #
-#bindkey '^[[A' up-line-or-search
-#bindkey '^[[B' down-line-or-search
-#bindkey '^[^[[C' emacs-forward-word
-#bindkey '^[^[[D' emacs-backward-word
+bindkey '^[[A' up-line-or-search
+bindkey '^[[B' down-line-or-search
+bindkey '^[^[[C' emacs-forward-word
+bindkey '^[^[[D' emacs-backward-word
 #
 #bindkey -s '^X^Z' '%-^M'
 #bindkey '^[e' expand-cmd-path
@@ -46,5 +48,5 @@ bindkey "\e[3~" delete-char
 #bindkey '^W' kill-region
 #bindkey '^I' complete-word
 ## Fix weird sequence that rxvt produces
-#bindkey -s '^[[Z' '\t'
+bindkey -s '^[[Z' '\t'
 #
