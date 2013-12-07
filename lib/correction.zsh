@@ -1,6 +1,4 @@
-if [[ "$DISABLE_CORRECTION" == "true" ]]; then
-  return
-else
+if [[ "$ENABLE_CORRECTION" == "true" ]]; then
   setopt correct_all
   alias man='nocorrect man'
   alias mv='nocorrect mv'
