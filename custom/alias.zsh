@@ -18,7 +18,7 @@ alias pRus='sudo pacman -Rus'
 alias pacman='sudo pacman'
 
 # Super-user
-alias vims='sudoedit'
+alias vims='sudoedit -Ee'
 
 # Storage left
 alias df='df -h'
