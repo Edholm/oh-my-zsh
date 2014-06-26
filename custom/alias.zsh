@@ -32,3 +32,6 @@ alias poweroff='systemctl poweroff'
 
 # Process search
 alias pss='ps -A -o pid,user,cmd | grep'
+
+
+alias digitvpn='sudo openvpn /etc/openvpn/digit.conf'
