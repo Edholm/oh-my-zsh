@@ -35,3 +35,6 @@ alias pss='ps -A -o pid,user,cmd | grep'
 
 
 alias digitvpn='sudo openvpn /etc/openvpn/digit.conf'
+alias eduroam='sudo netctl-auto switch-to eduroam'
+alias digitwlan='sudo netctl-auto switch-to digIT'
+alias nomad='sudo netctl-auto switch-to NOMAD'
