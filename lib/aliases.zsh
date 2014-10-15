@@ -6,11 +6,6 @@ alias po='popd'
 alias ...='cd ../..'
 alias -- -='cd -'
 
-# Prevent headaches
-alias cp='cp -v'
-alias rm='rm -v'
-alias mv='mv -v'
-
 # Super user
 alias _='sudo'
 alias please='sudo'
@@ -35,7 +30,6 @@ alias lsa='ls -lah'
 alias l='ls -lah'
 alias ll='ls -lh'
 alias la='ls -lAh'
-alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
