@@ -21,7 +21,7 @@ alias pacman='sudo pacman'
 alias vims='sudoedit -Ee'
 
 # Storage left
-alias df='df -h'
+alias df='df -h -t ext4 -t vfat'
 alias du='du -hc'
 
 # Shutdown/Reboot
