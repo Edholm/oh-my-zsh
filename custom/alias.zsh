@@ -40,3 +40,6 @@ alias digitwlan='sudo netctl-auto switch-to digIT'
 alias nomad='sudo netctl-auto switch-to NOMAD'
 
 alias o='open'
+
+# "Hard" clear
+alias cls="echo -ne '\033c'"
