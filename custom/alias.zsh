@@ -43,3 +43,5 @@ alias o='open'
 
 # "Hard" clear
 alias cls="echo -ne '\033c'"
+
+alias v='f -e "vim -O"'
